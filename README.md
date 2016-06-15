@@ -18,7 +18,11 @@ By forking this project and commiting changes to user project, we can help with 
   * Project Name should be SmvTraining and FQN should be `org.tresamigos.smvtraining`
   * Move everything from the created project directory to this cloned project directory and commit and push
   * Update the SMV config param smv.dataDir in the file conf/smv-user-conf.props in the project directory to reflect the new location after the project directory has been moved. See [Smv Application Configuration](https://github.com/TresAmigosSD/SMV/blob/master/docs/user/app_config.md) for further details.
-4. Make some small changes on the example modules, save it, compile (mvn package), and run with either smv-run or smv-shell. May need to learn a little about Maven at this stage
+
+06/14 note: go through item 6 first, then item 8, then try understand every line of code in the example app, and get all questions answered  
+
+4. Make some small changes on the example modules, save it, compile (mvn package), and run with either smv-run or smv-shell. May need to learn a little about Maven at this stage (this step does not make sense, no idea what the code is doing at this point, item 4 may be moved to right before item 7)
+
 5. Pickup some basic Scala: [Scala For The Impatiant](https://www.dropbox.com/s/tdc0xxv6hc0375l/Scala%20for%20the%20Impatient%20-%20Cay%20S.%20Horstmann.epub?dl=0)
 6. Go through [Spark SQL and Dataframe programing guide](http://spark.apache.org/docs/1.5.2/sql-programming-guide.html) and [Spark Scala API doc](http://spark.apache.org/docs/1.5.2/api/scala/index.html#org.apache.spark.package), majorly the methods in the [DataFrame Class](http://spark.apache.org/docs/1.5.2/api/scala/index.html#org.apache.spark.sql.DataFrame) and functions in the [functions package](http://spark.apache.org/docs/1.5.2/api/scala/index.html#org.apache.spark.sql.functions$)
 7. Make some changes on the example modules by trying out some of the Spark functions
